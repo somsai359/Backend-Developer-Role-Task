@@ -1,39 +1,9 @@
-<H1 align ="center" > MERN STUDENT MANAGEMENT SYSTEM </h1>
-<h5  align ="center"> 
-Fullstack open source student management system application made with MongoDB, Express, React & Nodejs (MERN) </h5>
-<br/>
+High Level Design
+<img width="830" alt="Screenshot 2023-12-29 at 3 53 11 AM" src="https://github.com/Somsai0009/Student-Management/assets/88903529/b1f250e4-2009-406e-a8d3-011e86eb5e94">
 
-  * [Configuration and Setup](#configuration-and-setup)
-  * [Key Features](#key-features)
-  * [Technologies used](#technologies-used)
-      - [Frontend](#frontend)
-      - [Backend](#backend)
-      - [Database](#database)
-  * [📸 Screenshots](#screenshots)
-  * [Author](#author)
-  * [License](#license)
-
-## Configuration and Setup
-
-In order to run this project locally, simply fork and clone the repository or download as zip and unzip on your machine.
-
-- Open the project in your prefered code editor.
-- Go to terminal -> New terminal (If you are using VS code)
-- Split your terminal into two (run the Frontend on one terminal and the server on the other terminal)
-
-In the first terminal
-
-```
-$ cd Fronted
-$ npm install (to install Frontend-side dependencies)
-$ npm run dev(to start the Frontend)
-```
-
-In the second terminal
-
+API Documentation Link: https://docs.google.com/document/d/1voFUIQBYXxECSLLPVEfssR3BR0HwcvPjX02tPXq2i8g/edit?usp=sharing
 - cd Backend and Set environment variables in .env
-- Create your mongoDB connection url, which you'll use as your MONGO_URL
-- S
+- Create  mongoDB connection url, which you'll use as your MONGO_URL
 
 ```
 #  ---  Config.env  ---
@@ -47,30 +17,24 @@ $ npm install (to install backend-side dependencies)
 $ npm start (to start the backend)
 ```
 
+   
 ##  Key Features
 
-- Add Student
-- Edit Student
-- Remove Student
-- No Student Page
-- 404 Page and many more
-- Responsive Design
 
+- Admin Login     : localhost:8070/admin/login
+- Admin adding Student: localhost:8070/admin/add/student
+- All Students    : localhost:8070/admin/get/Students/
+- update          : localhost:8070/admin/update/658da56a954b6a29b867ad31
+- Delete Student  : localhost:8070/admin/delete/658dbbad54ed6084d7c43bff
+- Task assigning  : localhost:8070/admin/task/assign/658da56a954b6a29b867ad31
+- Student Login   : localhost:8070/admin/task/assign/658da56a954b6a29b867ad31
+- View the task   : localhost:8070/student/tasks/658da56a954b6a29b867ad31
+- Update the Task : localhost:8070/student/task/update/658d4da367ace02e7db0f182/658d554be9c007a3c39062d1
 <br/>
 
 ##  Technologies used
 
 This project was created using the following technologies.
-
-####  Frontend 
-
-- [React js ](https://www.npmjs.com/package/react) - JavaScript library that is used for building user interfaces specifically for single-page applications
-- [React Hooks  ](https://reactjs.org/docs/hooks-intro.html) - For managing and centralizing application state
-- [react-router-dom](https://www.npmjs.com/package/react-router-dom) - To handle routing
-- [axios](https://www.npmjs.com/package/axios) - For making Api calls
-- [Bootstrap](https://getbootstrap.com/) - For User Interface
-- [React icons](https://react-icons.github.io/react-icons/) - Small library that helps you add icons  to your react apps
-- [SweetAlert2](https://sweetalert2.github.io/) - PopUp
 
 ####  Backend 
 
@@ -84,29 +48,3 @@ This project was created using the following technologies.
 
  - [MongoDB ](https://www.mongodb.com/) - It provides a free cloud service to store MongoDB collections.
 
-
-
-
-## License
-
-MIT License
-
-Copyright (c) 2022 Gilbert Hutapea
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
